@@ -1,9 +1,4 @@
-const person: {
-    name: string;
-    age: number;
-    hobbies: string[];
-    role: [number, string]; // Tuple
-} = {
+const person = {
     name: 'John',
     age: 30,
     hobbies: ['Sports', 'Cooking'],
