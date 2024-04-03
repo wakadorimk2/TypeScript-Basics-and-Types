@@ -11,6 +11,10 @@ function addAndHandle(n1: number, n2: number, cb: (num: number) => void) {
     cb(result);
 }
 
+addAndHandle(10, 20, (result) => {
+    console.log(result);
+});
+
 let combineValues: (a: number, b: number) => number;
 
 combineValues = add;
