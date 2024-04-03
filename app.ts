@@ -11,3 +11,5 @@ if (typeof userInput === 'string') {
 function generateError(message: string, code: number) {
     throw { message: message, errorCode: code };
 }
+
+generateError('エラーが発生しました', 500);
