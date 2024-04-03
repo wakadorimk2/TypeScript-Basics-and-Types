@@ -8,4 +8,3 @@ if (typeof userInput === 'string') {
     userName = userInput;
 }
 
-userName = userInput;
